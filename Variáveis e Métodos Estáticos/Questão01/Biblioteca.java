@@ -21,15 +21,15 @@ public class Biblioteca extends Livro {
 		switch(num1) {
 		
 		case 1: 
-			int num2;
-			System.out.println("\nDigite a quantidade de livros que deseja ADICIONAR AO ESTOQUE:");
-		    num2 = input.nextInt();
+		       int num2;
+		       System.out.println("\nDigite a quantidade de livros que deseja ADICIONAR AO ESTOQUE:");
+		       num2 = input.nextInt();
 		    
-		    System.out.println("\nAdicionado com sucesso!!!\n");
+		       System.out.println("\nAdicionado com sucesso!!!\n");
 		    
-		    Livro.adicionarLivros(num2);
+		       Livro.adicionarLivros(num2);
 		    
-		    break;
+		       break;
 		    
 		case 2:
 			int num3;
