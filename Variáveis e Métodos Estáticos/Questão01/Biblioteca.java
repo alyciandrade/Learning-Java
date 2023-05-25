@@ -16,9 +16,7 @@ public class Biblioteca extends Livro {
 		System.out.println("4 - Visualizar 'Total de Livros' e 'Livros Emprestados'.");
 		System.out.println("5 - Fechar menu.");
 		
-		num1 = input.nextInt();
-		
-		
+		num1 = input.nextInt();	
 		
 		switch(num1) {
 		
