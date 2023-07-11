@@ -20,7 +20,7 @@ enum Jogos{
 		 this.plataforma = plataforma;
 		 }
 	
-     public	String getNome() {
+     public String getNome() {
     	 return nome;
      }
 		 
